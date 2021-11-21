@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Microsoft SQL Server - MH_CONTENT@sw-dev05.hl-test.local" uuid="543477ce-0fdf-447f-854f-e4cce20acc28">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://sw-dev05.hl-test.local;database=MH_CONTENT</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Microsoft SQL Server (jTds)" uuid="a6a98172-a45e-4a7f-b2f2-7d3b0a83e425">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://./Mack_TestDB;instance=;namedPipe=true</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="NL" />
+        <property name="LOCAL_DB_EXECUTABLE" value="C:\Program Files\Microsoft SQL Server\130\Tools\Binn\SqlLocalDB.exe" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
